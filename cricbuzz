@@ -1,7 +1,7 @@
-id: 7yp_vo3PGEi-wtRzhJ6ZQA
+id: pHOAa_Hiq0WpjprqkShN3A
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-03T07:25:11.1321681Z
+created: 2021-12-03T07:43:06.8243893Z
 protocol: 1
 tests:
 - id: epzNMUM_tUCSzieKe-mCtw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-26T06:51:26.0000000
-  modificationDate: 2021-12-03T07:25:06.0000000
+  modificationDate: 2021-12-03T07:42:39.0000000
   settings:
     automationAssistant: true
     appId: jFq2eLZrVUqxPTyl95LeaA
@@ -219,6 +219,48 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: mFmuR_wmrUK3GmckPwUC1Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: k7tm_MsJWESTiPn2Vm2EtA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jelolSV1X0CAjX9SusRHNg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: PBPHofe1VE6jMkNi8X0B5w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -231,7 +273,7 @@ tests:
 auxTests: []
 elements:
 - id: TE-Fn9Z3cEWi9LLiWD61ug
-  name: 1st Match
+  name: 1st Match Display
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
@@ -339,5 +381,37 @@ elements:
   - name: XPATH
     value: /html/body/header/div/nav/div[7]/div/div/form/div[1]/div/div[3]/ul/li[1]/a
     priority: 1
+- id: k7tm_MsJWESTiPn2Vm2EtA
+  name: Match Details
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Match Details']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[1]/div/div/span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/span[2]/span/div[3]/div[1]/div/div[2]/span[2]
+    priority: 2
+- id: PBPHofe1VE6jMkNi8X0B5w
+  name: Time
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Time']
+    priority: 0
+  - name: XPATH
+    value: //span[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/span[2]/span/div[3]/div[1]/div/div[2]/span[3]
+    priority: 2
 projectParameters: []
 addons: []
