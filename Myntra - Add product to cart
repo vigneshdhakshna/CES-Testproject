@@ -1,18 +1,18 @@
-id: C52Qz1Kn2ku5s7Wn844q_g
+id: GwcZ7UG41keHIeD1EvTlxQ
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T08:57:39.1597122Z
+created: 2021-12-06T09:00:57.2879273Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
-  name: Add product to cart - myntra
-  description: ''
+  name: Myntra - Add product to cart
+  description: Add product to cart
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-06T08:56:57.0000000
+  modificationDate: 2021-12-06T09:00:57.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -300,7 +300,7 @@ elements:
     value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[1]/div/a
     priority: 2
 - id: oOIlgjDIuEuFLxoM2wNmPQ
-  name: DIV
+  name: FirstProduct
   type:
     id: jUwODgyNjAyNzk2NTk1NjM
     name: Div
@@ -313,7 +313,7 @@ elements:
     value: /html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[2]
     priority: 1
 - id: 5MvGhS3CQE2vQOfX6IKP_g
-  name: CartCount
+  name: Cart Count Validate as 1
   type:
     id: jUwODgyNjAyNzk2NTk1NjU
     name: span
