@@ -1,18 +1,18 @@
-id: pHOAa_Hiq0WpjprqkShN3A
+id: mzq7KbuQV0W1ZAoFmfHCVg
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-03T07:43:06.8243893Z
+created: 2021-12-06T09:00:12.3012082Z
 protocol: 1
 tests:
 - id: epzNMUM_tUCSzieKe-mCtw
   name: cricbuzz
-  description: ''
+  description: cricbuzz
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-26T06:51:26.0000000
-  modificationDate: 2021-12-03T07:42:39.0000000
+  modificationDate: 2021-12-06T09:00:12.0000000
   settings:
     automationAssistant: true
     appId: jFq2eLZrVUqxPTyl95LeaA
@@ -270,6 +270,8 @@ tests:
     description: ''
     value: India
     type: Input
+  tags:
+  - cricbuzz
 auxTests: []
 elements:
 - id: TE-Fn9Z3cEWi9LLiWD61ug
