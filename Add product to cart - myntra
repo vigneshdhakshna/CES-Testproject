@@ -1,7 +1,7 @@
-id: 0Iv3Jymct0K3vbxvaQ178w
+id: vLcc1X6KDEmwEXGEQ0gcRA
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T08:21:47.6170220Z
+created: 2021-12-06T08:51:26.1692984Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-06T08:19:02.0000000
+  modificationDate: 2021-12-06T08:50:38.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -50,10 +50,31 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 2QRtCwjs2k2PZNErHYuZZg
+  - id: belsCQGMTES5EV5iPCclhg
+    comments: ''
     enabled: true
     invertResult: false
     order: 2
+    repeat: 1
+    type: Action
+    elementId: TUrdRepLuk-jo80fOt9cQg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2QRtCwjs2k2PZNErHYuZZg
+    enabled: true
+    invertResult: false
+    order: 3
     repeat: 1
     type: Action
     elementId: GwlDBCy_XkqCVkgfcz8x9A
@@ -70,13 +91,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: HhR6kPTyYEqPx2k8VaQceQ
+  - id: OtYXYzRAAESb8RhU0gw9hg
+    comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
-    elementId: i3HPTauPtk-Vi7WjFbaIeA
+    elementId: cEVN2PfxGkiXek_jIFCS9g
     settings:
       sleepTime: -1
       timeout: -1
@@ -93,7 +115,7 @@ tests:
   - id: lF_B74TC4keeKb9OY8rRhQ
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     settings:
@@ -115,7 +137,7 @@ tests:
   - id: 92Rb2zPMykWYZHlq0WTTYA
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: MEmEjgsVs0yL9uVzUx8qlA
@@ -135,7 +157,7 @@ tests:
   - id: M8H55IhVWkiNJopWls2rAw
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: 6ToSQ0lffk2vb-2ZriAUDw
@@ -156,7 +178,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: LXYC8x9HuUGKiybe3vgcsg
@@ -197,27 +219,14 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //div[1]/div/div/div/div/li//a[. = 'T-Shirts']
+    value: //div[1]/div/div/div/div/li[1]/ul/li[2]/a
     priority: 0
   - name: XPATH
-    value: //div[1]/div/div/div/div/li[1]/ul/li[2]/a
+    value: //div[1]/div/div/div/div/li//a[. = 'T-Shirts']
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[1]/div/div/div/div/li[1]/ul/li[2]/a
     priority: 2
-- id: i3HPTauPtk-Vi7WjFbaIeA
-  name: First Product (T-Shirt)
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //a/div[1]/div[1]/div/div/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]/div[1]/div/div/div
-    priority: 1
 - id: MEmEjgsVs0yL9uVzUx8qlA
   name: Select Size (L)
   type:
@@ -262,6 +271,35 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div[1]/div/div/header/div[2]/div[2]/a[2]/span[2]
+    priority: 1
+- id: TUrdRepLuk-jo80fOt9cQg
+  name: MEN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Men']
+    priority: 0
+  - name: XPATH
+    value: //nav/div/div[1]/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[1]/div/a
+    priority: 2
+- id: cEVN2PfxGkiXek_jIFCS9g
+  name: First Product
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div/div[2]/div//img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]/div[1]/div/div/div/div[2]/div/div/picture/img
     priority: 1
 projectParameters: []
 addons: []
