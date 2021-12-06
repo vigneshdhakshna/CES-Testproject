@@ -1,7 +1,7 @@
-id: FRMNYKiukE-zmhZZGcxSAA
+id: GtAfb1eCjkSSJDLSkXKcMg
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T09:59:28.2142079Z
+created: 2021-12-06T10:14:57.4297866Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-06T09:59:22.0000000
+  modificationDate: 2021-12-06T10:05:52.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -153,7 +153,7 @@ tests:
       source: System
     parameterMaps:
     - name: index
-      value: 1
+      value: '{{ProductWindow}}'
       direction: Input
     conditions: []
     validations: []
@@ -243,7 +243,7 @@ tests:
       source: System
     parameterMaps:
     - name: index
-      value: 1
+      value: '{{ProductWindow}}'
       direction: Input
     conditions: []
     validations: []
@@ -374,7 +374,7 @@ tests:
       source: System
     parameterMaps:
     - name: index
-      value: 1
+      value: '{{ProductWindow}}'
       direction: Input
     conditions: []
     validations: []
@@ -455,6 +455,10 @@ tests:
   - name: ParentWindow
     description: Window Index
     value: 0
+    type: Input
+  - name: ProductWindow
+    description: Window Index
+    value: 1
     type: Input
   tags:
   - myntra
