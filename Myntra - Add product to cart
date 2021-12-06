@@ -1,7 +1,7 @@
-id: GwcZ7UG41keHIeD1EvTlxQ
+id: 5pVCyGspVEe0YoD7HLDKbA
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T09:00:57.2879273Z
+created: 2021-12-06T09:56:54.1720073Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-06T09:00:57.0000000
+  modificationDate: 2021-12-06T09:54:10.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -199,7 +199,7 @@ tests:
     validations: []
     contexts: []
   - id: IPHpAZtHIU-17BfTYxDScQ
-    comments: ''
+    comments: Cart Count Validate as 1
     enabled: true
     invertResult: false
     order: 9
@@ -226,10 +226,214 @@ tests:
       field: text
       value: 1
     contexts: []
+  - id: 9Qf4riKKX0CYxeEmtY7x6g
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6cc71ddb-1aaf-433c-aa94-56d944aac433
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mhRCEP78GEWMRWukDiRU9g
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: '{{ParentWindow}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZvZdwBZt702puPwhITA1dw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: _5_kH0-KS02UrqnPrdMJHg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 631118c0-4828-42c8-aa69-0e6107d5956d
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4zKYEcNjGUaV-WOuxk3clA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: S2dox6_RC0irN-NJyXvpEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BXC8VhR4FkG48wldfp76EQ
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 195
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CKT_E_IU40SmR8AOpkKc-A
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: oOIlgjDIuEuFLxoM2wNmPQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U3liDnrMcEaBltlGg0EEVg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: IGFSc64JAkOdRskR3IgpGg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tAk8jd7WX0-RaQY8h3ShJg
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: 6ToSQ0lffk2vb-2ZriAUDw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R3PsHOhA8ESDeGf-GWG6HA
+    comments: Cart Count Validate as 2
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 5MvGhS3CQE2vQOfX6IKP_g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: text
+      value: 2
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://www.myntra.com/
+    type: Input
+  - name: ParentWindow
+    description: Window Index
+    value: 0
     type: Input
   tags:
   - myntra
@@ -313,7 +517,7 @@ elements:
     value: /html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[2]
     priority: 1
 - id: 5MvGhS3CQE2vQOfX6IKP_g
-  name: Cart Count Validate as 1
+  name: Cart Count Validate
   type:
     id: jUwODgyNjAyNzk2NTk1NjU
     name: span
@@ -325,5 +529,53 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div/div/header/div[2]/div[2]/a[2]/span[2]
     priority: 1
+- id: _5_kH0-KS02UrqnPrdMJHg
+  name: WOMEN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Women']
+    priority: 0
+  - name: XPATH
+    value: //nav/div/div[2]/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[2]/div/a
+    priority: 2
+- id: S2dox6_RC0irN-NJyXvpEw
+  name: Kurtis, Tunics & Tops
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Kurtis, Tunics & Tops']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div/div/li[1]/ul/li[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[2]/div/div/div/div/li[1]/ul/li[3]/a
+    priority: 2
+- id: IGFSc64JAkOdRskR3IgpGg
+  name: Select Size (M)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'M']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/button
+    priority: 2
 projectParameters: []
 addons: []
