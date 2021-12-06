@@ -1,7 +1,7 @@
-id: Tc9M-CB66EaqQskgSNUWlA
+id: 0Iv3Jymct0K3vbxvaQ178w
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T08:16:35.6679201Z
+created: 2021-12-06T08:21:47.6170220Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-06T08:16:35.0000000
+  modificationDate: 2021-12-06T08:19:02.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -50,6 +50,136 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: 2QRtCwjs2k2PZNErHYuZZg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: GwlDBCy_XkqCVkgfcz8x9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HhR6kPTyYEqPx2k8VaQceQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: i3HPTauPtk-Vi7WjFbaIeA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lF_B74TC4keeKb9OY8rRhQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 92Rb2zPMykWYZHlq0WTTYA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: MEmEjgsVs0yL9uVzUx8qlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: M8H55IhVWkiNJopWls2rAw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 6ToSQ0lffk2vb-2ZriAUDw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _BXaIwo6uEmYFHTDlQSeLA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: LXYC8x9HuUGKiybe3vgcsg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Contains
+      invert: false
+      field: text
+      value: 1
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -58,6 +188,80 @@ tests:
   tags:
   - myntra
 auxTests: []
-elements: []
+elements:
+- id: GwlDBCy_XkqCVkgfcz8x9A
+  name: T-Shirts
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div/div/div/li//a[. = 'T-Shirts']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/div/div/li[1]/ul/li[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[1]/div/div/div/div/li[1]/ul/li[2]/a
+    priority: 2
+- id: i3HPTauPtk-Vi7WjFbaIeA
+  name: First Product (T-Shirt)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //a/div[1]/div[1]/div/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]/main/div[3]/div[2]/div/div[2]/section/ul/li[1]/a/div[1]/div[1]/div/div/div
+    priority: 1
+- id: MEmEjgsVs0yL9uVzUx8qlA
+  name: Select Size (L)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'L']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/main/div[2]/div[2]/div[3]/div[2]/div[3]/div[1]/button
+    priority: 2
+- id: 6ToSQ0lffk2vb-2ZriAUDw
+  name: ADD TO BAG
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'ADD TO BAG']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]/div[4]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div/div/main/div[2]/div[2]/div[4]/div/div[1]
+    priority: 2
+- id: LXYC8x9HuUGKiybe3vgcsg
+  name: Cart Count
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[2]/span[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div/header/div[2]/div[2]/a[2]/span[2]
+    priority: 1
 projectParameters: []
 addons: []
