@@ -1,7 +1,7 @@
-id: 5pVCyGspVEe0YoD7HLDKbA
+id: FRMNYKiukE-zmhZZGcxSAA
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T09:56:54.1720073Z
+created: 2021-12-06T09:59:28.2142079Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-06T09:54:10.0000000
+  modificationDate: 2021-12-06T09:59:22.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -357,14 +357,35 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: U3liDnrMcEaBltlGg0EEVg
-    comments: ''
+  - id: CwlGXSnX-kSbGQCBmMjAbQ
     enabled: true
     invertResult: false
     order: 16
     repeat: 1
     type: Action
-    elementId: IGFSc64JAkOdRskR3IgpGg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Cx5D0eMlA0qVvVkpUGvU5Q
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: MEmEjgsVs0yL9uVzUx8qlA
     settings:
       sleepTime: -1
       timeout: -1
@@ -381,7 +402,7 @@ tests:
   - id: tAk8jd7WX0-RaQY8h3ShJg
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: 6ToSQ0lffk2vb-2ZriAUDw
@@ -402,7 +423,7 @@ tests:
     comments: Cart Count Validate as 2
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: 5MvGhS3CQE2vQOfX6IKP_g
@@ -560,22 +581,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[2]/div/div/div/div/li[1]/ul/li[3]/a
-    priority: 2
-- id: IGFSc64JAkOdRskR3IgpGg
-  name: Select Size (M)
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'M']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div/div/main/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/button
     priority: 2
 projectParameters: []
 addons: []
