@@ -1,7 +1,7 @@
-id: jHGsW3htkEO4Ct4BmDlCbQ
+id: k4WYLTdQqkSoTUFCDxcX3A
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-07T07:53:58.2380118Z
+created: 2021-12-07T07:59:06.9031502Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-07T07:43:46.0000000
+  modificationDate: 2021-12-07T07:58:36.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -470,32 +470,26 @@ tests:
     type: Input
   - name: MenProduct
     description: ''
-    value: T-Shirt
+    value: T-Shirts
     type: Input
   - name: WomenProduct
     description: ''
-    value: Kurtis
+    value: Kurtis, Tunics & Tops
     type: Input
   tags:
   - myntra
 auxTests: []
 elements:
 - id: GwlDBCy_XkqCVkgfcz8x9A
-  name: T-Shirts
+  name: Men Product
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
     source: System
   locators:
   - name: XPATH
-    value: //div[1]/div/div/div/div/li[1]/ul/li[2]/a
+    value: //div[1]/div/div/div/div/li//a[. = '{{MenProduct}}']
     priority: 0
-  - name: XPATH
-    value: //div[1]/div/div/div/div/li//a[. = 'T-Shirts']
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[1]/div/div/div/div/li[1]/ul/li[2]/a
-    priority: 2
 - id: MEmEjgsVs0yL9uVzUx8qlA
   name: Select Size (L)
   type:
@@ -529,7 +523,7 @@ elements:
     value: /html/body/div[2]/div/div/div/main/div[2]/div[2]/div[4]/div/div[1]
     priority: 2
 - id: TUrdRepLuk-jo80fOt9cQg
-  name: MEN
+  name: Category Men
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
@@ -565,7 +559,7 @@ elements:
     value: /html/body/div[1]/div/div/header/div[2]/div[2]/a[2]/span[2]
     priority: 1
 - id: _5_kH0-KS02UrqnPrdMJHg
-  name: WOMEN
+  name: Category Women
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
@@ -575,20 +569,14 @@ elements:
     value: //a[. = '{{WomenCategory}}']
     priority: 0
 - id: S2dox6_RC0irN-NJyXvpEw
-  name: Kurtis, Tunics & Tops
+  name: Women Product
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'Kurtis, Tunics & Tops']
+    value: //a[. = '{{WomenProduct}}']
     priority: 0
-  - name: XPATH
-    value: //div[2]/div/div/div/div/li[1]/ul/li[3]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[2]/div/div/div/div/li[1]/ul/li[3]/a
-    priority: 2
 projectParameters: []
 addons: []
