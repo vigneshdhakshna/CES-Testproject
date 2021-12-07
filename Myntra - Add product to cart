@@ -1,7 +1,7 @@
-id: k4WYLTdQqkSoTUFCDxcX3A
+id: G9IQ5IK83EWOGmAQw0IC_g
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-07T07:59:06.9031502Z
+created: 2021-12-07T08:17:27.9662601Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-07T07:58:36.0000000
+  modificationDate: 2021-12-07T08:17:26.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -474,7 +474,7 @@ tests:
     type: Input
   - name: WomenProduct
     description: ''
-    value: Kurtis, Tunics & Tops
+    value: Kurtas & Suits
     type: Input
   tags:
   - myntra
