@@ -1,7 +1,7 @@
-id: GtAfb1eCjkSSJDLSkXKcMg
+id: jHGsW3htkEO4Ct4BmDlCbQ
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T10:14:57.4297866Z
+created: 2021-12-07T07:53:58.2380118Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-06T10:05:52.0000000
+  modificationDate: 2021-12-07T07:43:46.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -460,6 +460,22 @@ tests:
     description: Window Index
     value: 1
     type: Input
+  - name: MenCategory
+    description: ''
+    value: Men
+    type: Input
+  - name: WomenCategory
+    description: ''
+    value: Women
+    type: Input
+  - name: MenProduct
+    description: ''
+    value: T-Shirt
+    type: Input
+  - name: WomenProduct
+    description: ''
+    value: Kurtis
+    type: Input
   tags:
   - myntra
 auxTests: []
@@ -520,14 +536,8 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'Men']
+    value: //a[. = '{{MenCategory}}']
     priority: 0
-  - name: XPATH
-    value: //nav/div/div[1]/div/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[1]/div/a
-    priority: 2
 - id: oOIlgjDIuEuFLxoM2wNmPQ
   name: FirstProduct
   type:
@@ -562,14 +572,8 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'Women']
+    value: //a[. = '{{WomenCategory}}']
     priority: 0
-  - name: XPATH
-    value: //nav/div/div[2]/div/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div/header/div[2]/nav/div/div[2]/div/a
-    priority: 2
 - id: S2dox6_RC0irN-NJyXvpEw
   name: Kurtis, Tunics & Tops
   type:
