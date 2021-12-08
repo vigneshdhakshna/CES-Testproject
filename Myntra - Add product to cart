@@ -1,7 +1,7 @@
-id: 06-dkd_Io02Qk2rwkV5aUA
+id: nZ8VDgMyrkyjCzKIez7q8w
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-08T08:25:16.3538883Z
+created: 2021-12-08T08:26:52.9560692Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-08T08:25:11.0000000
+  modificationDate: 2021-12-08T08:26:49.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -91,11 +91,32 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: uEzCvZ2FxkKnx5tigqVHNA
+    comments: Popup
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: ej1rVh-qQUO6FSB4hPfiYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: kdPwuXXXu0myNVpIxSexBA
     comments: Page Validation
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     elementId: TDkzZx0XEEi_oDr26AMbFg
@@ -112,28 +133,6 @@ tests:
     - name: text
       value: Men T-Shirts
       direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: uEzCvZ2FxkKnx5tigqVHNA
-    comments: Popup
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Addon
-    elementId: ej1rVh-qQUO6FSB4hPfiYQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: AlwaysPass
-      takeScreenshotConditionType: Inherit
-    action:
-      id: c7OPWafS8kaFJUBVwrhoRw
-      source: Store
-      addonId: 9G7qW0nEqU60ObO6IXJshg
-    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -692,17 +691,4 @@ elements:
     value: //button[contains(text(),'Later')]
     priority: 0
 projectParameters: []
-addons:
-- id: 9G7qW0nEqU60ObO6IXJshg
-  source: Store
-  version: 1.9
-  actions:
-  - id: c7OPWafS8kaFJUBVwrhoRw
-    name: Click (using JavaScript)
-    description: Click {{element}}
-    className: io.testproject.addon.jsactions.ClickAction
-  minSdkLevel: 2
-  minSdkVersion: 0.65.0
-  sdkGeneration: 1
-  language: Java
-  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
+addons: []
