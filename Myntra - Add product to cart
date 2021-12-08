@@ -1,7 +1,7 @@
-id: QdZOnuZzCUKklS4k0bjC7Q
+id: p7tOC9JUN0-lVFGleuWmjg
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-08T08:17:49.8934606Z
+created: 2021-12-08T08:22:41.8986735Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-08T08:17:48.0000000
+  modificationDate: 2021-12-08T08:22:33.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -97,7 +97,7 @@ tests:
     invertResult: false
     order: 4
     repeat: 1
-    type: Action
+    type: Addon
     elementId: ej1rVh-qQUO6FSB4hPfiYQ
     settings:
       sleepTime: -1
@@ -106,8 +106,9 @@ tests:
       failureBehaviorType: AlwaysPass
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
     parameterMaps: []
     conditions: []
     validations: []
@@ -691,4 +692,17 @@ elements:
     value: //button[contains(text(),'Later')]
     priority: 0
 projectParameters: []
-addons: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
