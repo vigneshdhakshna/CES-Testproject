@@ -1,7 +1,7 @@
-id: ZUcMnfWNh0-_BU6MCa_qtg
+id: QdZOnuZzCUKklS4k0bjC7Q
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-08T08:16:14.8866413Z
+created: 2021-12-08T08:17:49.8934606Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-08T08:16:10.0000000
+  modificationDate: 2021-12-08T08:17:48.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -91,11 +91,32 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: uEzCvZ2FxkKnx5tigqVHNA
+    comments: Popup
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: ej1rVh-qQUO6FSB4hPfiYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: kdPwuXXXu0myNVpIxSexBA
     comments: Page Validation
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     elementId: TDkzZx0XEEi_oDr26AMbFg
@@ -118,7 +139,7 @@ tests:
   - id: 1xmiiLcT10m8c8zppKuLkw
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     settings:
@@ -143,7 +164,7 @@ tests:
   - id: uKDg4fb2q0u2j982KibVoA
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: oOIlgjDIuEuFLxoM2wNmPQ
@@ -163,7 +184,7 @@ tests:
   - id: Y2C0qUqnXkatQeO35Qhwgw
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     settings:
@@ -185,7 +206,7 @@ tests:
   - id: 73ckWIlahUOVm6TLbkXFPw
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: MEmEjgsVs0yL9uVzUx8qlA
@@ -205,7 +226,7 @@ tests:
   - id: olKue2sgzUWj5dOktR7SiA
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: 6ToSQ0lffk2vb-2ZriAUDw
@@ -226,7 +247,7 @@ tests:
     comments: Cart Count Validate as 1
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: 5MvGhS3CQE2vQOfX6IKP_g
@@ -253,7 +274,7 @@ tests:
   - id: 9Qf4riKKX0CYxeEmtY7x6g
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     settings:
@@ -275,7 +296,7 @@ tests:
   - id: mhRCEP78GEWMRWukDiRU9g
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     settings:
@@ -298,7 +319,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: _5_kH0-KS02UrqnPrdMJHg
@@ -319,7 +340,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: S2dox6_RC0irN-NJyXvpEw
@@ -340,7 +361,7 @@ tests:
     comments: Page Validation
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: 870YfI_m70mXwid0zHsAOQ
@@ -363,7 +384,7 @@ tests:
   - id: BXC8VhR4FkG48wldfp76EQ
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     settings:
@@ -388,7 +409,7 @@ tests:
   - id: CKT_E_IU40SmR8AOpkKc-A
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: oOIlgjDIuEuFLxoM2wNmPQ
@@ -408,7 +429,7 @@ tests:
   - id: CwlGXSnX-kSbGQCBmMjAbQ
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     settings:
@@ -430,7 +451,7 @@ tests:
   - id: Cx5D0eMlA0qVvVkpUGvU5Q
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Action
     elementId: MEmEjgsVs0yL9uVzUx8qlA
@@ -450,7 +471,7 @@ tests:
   - id: tAk8jd7WX0-RaQY8h3ShJg
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Action
     elementId: 6ToSQ0lffk2vb-2ZriAUDw
@@ -471,7 +492,7 @@ tests:
     comments: Cart Count Validate as 2
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: 5MvGhS3CQE2vQOfX6IKP_g
@@ -494,27 +515,6 @@ tests:
       invert: false
       field: text
       value: 2
-    contexts: []
-  - id: uEzCvZ2FxkKnx5tigqVHNA
-    comments: Popup
-    enabled: true
-    invertResult: false
-    order: 22
-    repeat: 1
-    type: Action
-    elementId: ej1rVh-qQUO6FSB4hPfiYQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: AlwaysPass
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
     contexts: []
   parameters:
   - name: ApplicationURL
