@@ -1,7 +1,7 @@
-id: UaU5upCXHk61EjqtHXeimA
+id: ZUcMnfWNh0-_BU6MCa_qtg
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-08T07:12:28.8446525Z
+created: 2021-12-08T08:16:14.8866413Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-08T07:11:59.0000000
+  modificationDate: 2021-12-08T08:16:10.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -495,6 +495,27 @@ tests:
       field: text
       value: 2
     contexts: []
+  - id: uEzCvZ2FxkKnx5tigqVHNA
+    comments: Popup
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: ej1rVh-qQUO6FSB4hPfiYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -658,5 +679,16 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[1]/main/div[2]/div/h1
     priority: 2
+- id: ej1rVh-qQUO6FSB4hPfiYQ
+  name: Later Popup
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[contains(text(),'Later')]
+    priority: 0
 projectParameters: []
 addons: []
