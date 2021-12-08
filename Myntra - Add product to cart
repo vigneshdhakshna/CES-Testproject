@@ -1,7 +1,7 @@
-id: p7tOC9JUN0-lVFGleuWmjg
+id: Ybl-BSfoMUqoa-uJJhlxiQ
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-08T08:22:41.8986735Z
+created: 2021-12-08T08:23:52.8096415Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-08T08:22:33.0000000
+  modificationDate: 2021-12-08T08:23:50.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -50,11 +50,33 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: uEzCvZ2FxkKnx5tigqVHNA
+    comments: Popup
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: ej1rVh-qQUO6FSB4hPfiYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: belsCQGMTES5EV5iPCclhg
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: TUrdRepLuk-jo80fOt9cQg
@@ -74,7 +96,7 @@ tests:
   - id: 2QRtCwjs2k2PZNErHYuZZg
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: GwlDBCy_XkqCVkgfcz8x9A
@@ -87,28 +109,6 @@ tests:
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: uEzCvZ2FxkKnx5tigqVHNA
-    comments: Popup
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Addon
-    elementId: ej1rVh-qQUO6FSB4hPfiYQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: AlwaysPass
-      takeScreenshotConditionType: Inherit
-    action:
-      id: c7OPWafS8kaFJUBVwrhoRw
-      source: Store
-      addonId: 9G7qW0nEqU60ObO6IXJshg
     parameterMaps: []
     conditions: []
     validations: []
