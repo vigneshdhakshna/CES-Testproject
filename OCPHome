@@ -1,7 +1,7 @@
-id: MjKS2NRAVU-ol3wRlQpZVA
+id: I92T5wOX8kC5SPuUYhF5fg
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-09T09:27:02.5978363Z
+created: 2021-12-09T09:36:00.8652658Z
 protocol: 1
 tests:
 - id: xZyUTmjgn0K5jn4DHgjm8w
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-09T08:36:03.0000000
-  modificationDate: 2021-12-09T09:25:54.0000000
+  modificationDate: 2021-12-09T09:35:08.0000000
   settings:
     automationAssistant: false
     appId: lG72zF7BQEatEtQP_1_Lsg
@@ -153,6 +153,10 @@ tests:
         Business Principles
 
         Leadership
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{AboutLists}}'
     contexts: []
   - id: Ep5B6mnx80qcPFKoOGxwvA
     comments: ''
@@ -983,7 +987,7 @@ tests:
     type: Output
   - name: AboutLists
     description: ''
-    value: About Oaktree Investment Philosophy Business Principles Leadership
+    value: About Oaktree\r\nInvestment Philosophy\r\nBusiness Principles\r\nLeadership
     type: Input
 auxTests: []
 elements:
