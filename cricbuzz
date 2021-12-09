@@ -1,7 +1,7 @@
-id: mzq7KbuQV0W1ZAoFmfHCVg
+id: 0143CGt3wEe6sg9_8GuOyQ
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-06T09:00:12.3012082Z
+created: 2021-12-09T08:34:07.2073220Z
 protocol: 1
 tests:
 - id: epzNMUM_tUCSzieKe-mCtw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-26T06:51:26.0000000
-  modificationDate: 2021-12-06T09:00:12.0000000
+  modificationDate: 2021-12-09T08:30:54.0000000
   settings:
     automationAssistant: true
     appId: jFq2eLZrVUqxPTyl95LeaA
@@ -89,7 +89,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: ''
+      value: '{{valuescore}}'
       direction: Output
     conditions: []
     validations: []
@@ -269,6 +269,10 @@ tests:
   - name: Country
     description: ''
     value: India
+    type: Input
+  - name: valuescore
+    description: ''
+    value: ''
     type: Input
   tags:
   - cricbuzz
