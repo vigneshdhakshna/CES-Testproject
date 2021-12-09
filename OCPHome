@@ -1,7 +1,7 @@
-id: WJV4LWWJuEi6xcLNvvGziA
+id: MjKS2NRAVU-ol3wRlQpZVA
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-09T08:36:15.0933826Z
+created: 2021-12-09T09:27:02.5978363Z
 protocol: 1
 tests:
 - id: xZyUTmjgn0K5jn4DHgjm8w
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-09T08:36:03.0000000
-  modificationDate: 2021-12-09T08:36:03.0000000
+  modificationDate: 2021-12-09T09:25:54.0000000
   settings:
     automationAssistant: false
     appId: lG72zF7BQEatEtQP_1_Lsg
@@ -150,7 +150,7 @@ tests:
 
         Investment Philosophy
 
-        Business Principles 
+        Business Principles
 
         Leadership
     contexts: []
@@ -976,6 +976,14 @@ tests:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://oaktreecap-cnt.sitefinity.cloud/
+    type: Input
+  - name: ULValue
+    description: ''
+    value: ''
+    type: Output
+  - name: AboutLists
+    description: ''
+    value: About Oaktree Investment Philosophy Business Principles Leadership
     type: Input
 auxTests: []
 elements:
