@@ -1,18 +1,18 @@
-id: 56ZrZjfZRkCZELyONescYQ
+id: Wnzvpe5f0E2A8YKD23JU3g
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-13T09:01:49.1644154Z
+created: 2021-12-13T09:42:51.4323190Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
-  name: Myntra - Add product to cart
+  name: Myntra
   description: Add product to cart
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-13T09:01:06.0000000
+  modificationDate: 2021-12-13T09:42:51.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
