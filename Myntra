@@ -1,7 +1,7 @@
-id: Wnzvpe5f0E2A8YKD23JU3g
+id: I0hHS3c2YkuEf9XabcdlCQ
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-13T09:42:51.4323190Z
+created: 2021-12-13T15:54:51.8970640Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-13T09:42:51.0000000
+  modificationDate: 2021-12-13T15:54:44.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -297,7 +297,7 @@ tests:
       timeout: -1
       sleepTiming: Inherit
       failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
+      takeScreenshotConditionType: Always
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
@@ -645,7 +645,7 @@ tests:
       timeout: -1
       sleepTiming: Inherit
       failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
+      takeScreenshotConditionType: Always
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
