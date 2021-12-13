@@ -1,7 +1,7 @@
-id: I0hHS3c2YkuEf9XabcdlCQ
+id: bWodk5nWo0m3X2cCPtVrMA
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-13T15:54:51.8970640Z
+created: 2021-12-13T16:53:02.2630375Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-13T15:54:44.0000000
+  modificationDate: 2021-12-13T16:52:55.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -50,11 +50,32 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: belsCQGMTES5EV5iPCclhg
+  - id: Br4cC26yDkGiLlVoessUfA
     comments: ''
     enabled: true
     invertResult: false
     order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: oss77pMS7U-Bt7cdueaJUw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: belsCQGMTES5EV5iPCclhg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
     repeat: 1
     type: Action
     elementId: TUrdRepLuk-jo80fOt9cQg
@@ -74,7 +95,7 @@ tests:
   - id: 2QRtCwjs2k2PZNErHYuZZg
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: GwlDBCy_XkqCVkgfcz8x9A
@@ -95,7 +116,7 @@ tests:
     comments: Page Validation
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     elementId: TDkzZx0XEEi_oDr26AMbFg
@@ -118,7 +139,7 @@ tests:
   - id: UDDWXVBkp0yDu6igulXk3w
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: UGnQmZPhykSOmtQcdrjvdA
@@ -138,7 +159,7 @@ tests:
   - id: fNVt8WxvM0uaEGo8a37VvA
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: vgtfjQ7v3U-zoq-r4JUkFw
@@ -158,7 +179,7 @@ tests:
   - id: exVB0gfum0eSsAjo5JjwVA
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: vgtfjQ7v3U-zoq-r4JUkFw
@@ -181,7 +202,7 @@ tests:
   - id: mXf6o8LqbkyJSzQSU16IPw
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: saDMcn6myE2KhP4sldu5jA
@@ -201,7 +222,7 @@ tests:
   - id: Gb_XBTi4ukWAqPnvdNIT-w
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: V1o1w5MRG0uw-toW9xC2wA
@@ -221,7 +242,7 @@ tests:
   - id: 1xmiiLcT10m8c8zppKuLkw
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     settings:
@@ -246,7 +267,7 @@ tests:
   - id: uKDg4fb2q0u2j982KibVoA
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: oOIlgjDIuEuFLxoM2wNmPQ
@@ -266,7 +287,7 @@ tests:
   - id: Y2C0qUqnXkatQeO35Qhwgw
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     settings:
@@ -288,7 +309,7 @@ tests:
   - id: 73ckWIlahUOVm6TLbkXFPw
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: MEmEjgsVs0yL9uVzUx8qlA
@@ -308,7 +329,7 @@ tests:
   - id: olKue2sgzUWj5dOktR7SiA
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: 6ToSQ0lffk2vb-2ZriAUDw
@@ -329,7 +350,7 @@ tests:
     comments: Cart Count Validate as 1
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: 5MvGhS3CQE2vQOfX6IKP_g
@@ -356,7 +377,7 @@ tests:
   - id: 9Qf4riKKX0CYxeEmtY7x6g
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     settings:
@@ -378,7 +399,7 @@ tests:
   - id: mhRCEP78GEWMRWukDiRU9g
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     settings:
@@ -401,7 +422,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: _5_kH0-KS02UrqnPrdMJHg
@@ -422,7 +443,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Action
     elementId: S2dox6_RC0irN-NJyXvpEw
@@ -443,7 +464,7 @@ tests:
     comments: Page Validation
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Action
     elementId: 870YfI_m70mXwid0zHsAOQ
@@ -466,7 +487,7 @@ tests:
   - id: XVWeSGaup0SZAa6sLZuuRg
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: UGnQmZPhykSOmtQcdrjvdA
@@ -486,7 +507,7 @@ tests:
   - id: hipO3FMF3Ey-3PaFngMdRg
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: vgtfjQ7v3U-zoq-r4JUkFw
@@ -506,7 +527,7 @@ tests:
   - id: aZZR-V1YxUSb_ozhzj4YiQ
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: vgtfjQ7v3U-zoq-r4JUkFw
@@ -529,7 +550,7 @@ tests:
   - id: b8APmMZER0Sx7W1pM81qaQ
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Action
     elementId: saDMcn6myE2KhP4sldu5jA
@@ -549,7 +570,7 @@ tests:
   - id: -aRdtyDu4k-wGPIq52su7w
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: V1o1w5MRG0uw-toW9xC2wA
@@ -569,7 +590,7 @@ tests:
   - id: BXC8VhR4FkG48wldfp76EQ
     enabled: true
     invertResult: false
-    order: 26
+    order: 27
     repeat: 1
     type: Action
     settings:
@@ -594,7 +615,7 @@ tests:
   - id: CKT_E_IU40SmR8AOpkKc-A
     enabled: true
     invertResult: false
-    order: 27
+    order: 28
     repeat: 1
     type: Action
     elementId: oOIlgjDIuEuFLxoM2wNmPQ
@@ -614,7 +635,7 @@ tests:
   - id: CwlGXSnX-kSbGQCBmMjAbQ
     enabled: true
     invertResult: false
-    order: 28
+    order: 29
     repeat: 1
     type: Action
     settings:
@@ -636,7 +657,7 @@ tests:
   - id: Cx5D0eMlA0qVvVkpUGvU5Q
     enabled: true
     invertResult: false
-    order: 29
+    order: 30
     repeat: 1
     type: Action
     elementId: MEmEjgsVs0yL9uVzUx8qlA
@@ -656,7 +677,7 @@ tests:
   - id: tAk8jd7WX0-RaQY8h3ShJg
     enabled: true
     invertResult: false
-    order: 30
+    order: 31
     repeat: 1
     type: Action
     elementId: 6ToSQ0lffk2vb-2ZriAUDw
@@ -677,7 +698,7 @@ tests:
     comments: Cart Count Validate as 2
     enabled: true
     invertResult: false
-    order: 31
+    order: 32
     repeat: 1
     type: Action
     elementId: 5MvGhS3CQE2vQOfX6IKP_g
@@ -925,4 +946,17 @@ elements:
     value: /html/body/div[2]/div/div[1]/main/div[3]/div[1]/section/div/div[2]/div[3]/div[1]/span
     priority: 1
 projectParameters: []
-addons: []
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: oss77pMS7U-Bt7cdueaJUw
+    name: Maximize window
+    description: Maximize window
+    className: io.testproject.addons.web.window.MaximizeWindow
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
