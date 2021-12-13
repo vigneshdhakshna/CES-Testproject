@@ -1,7 +1,7 @@
-id: 2DHtVJDNQ0KonX6VhJfujg
+id: 56ZrZjfZRkCZELyONescYQ
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-13T08:54:13.1842202Z
+created: 2021-12-13T09:01:49.1644154Z
 protocol: 1
 tests:
 - id: QE20uzb81ka7kPVOL2izdA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-06T08:16:35.0000000
-  modificationDate: 2021-12-13T08:54:06.0000000
+  modificationDate: 2021-12-13T09:01:06.0000000
   settings:
     automationAssistant: true
     appId: 4RvMo-_IjUKargs8vDWvGQ
@@ -463,10 +463,113 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: BXC8VhR4FkG48wldfp76EQ
+  - id: XVWeSGaup0SZAa6sLZuuRg
     enabled: true
     invertResult: false
     order: 21
+    repeat: 1
+    type: Action
+    elementId: UGnQmZPhykSOmtQcdrjvdA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hipO3FMF3Ey-3PaFngMdRg
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: vgtfjQ7v3U-zoq-r4JUkFw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aZZR-V1YxUSb_ozhzj4YiQ
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: vgtfjQ7v3U-zoq-r4JUkFw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{WomenBrand}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: b8APmMZER0Sx7W1pM81qaQ
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: saDMcn6myE2KhP4sldu5jA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -aRdtyDu4k-wGPIq52su7w
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: V1o1w5MRG0uw-toW9xC2wA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BXC8VhR4FkG48wldfp76EQ
+    enabled: true
+    invertResult: false
+    order: 26
     repeat: 1
     type: Action
     settings:
@@ -491,7 +594,7 @@ tests:
   - id: CKT_E_IU40SmR8AOpkKc-A
     enabled: true
     invertResult: false
-    order: 22
+    order: 27
     repeat: 1
     type: Action
     elementId: oOIlgjDIuEuFLxoM2wNmPQ
@@ -511,7 +614,7 @@ tests:
   - id: CwlGXSnX-kSbGQCBmMjAbQ
     enabled: true
     invertResult: false
-    order: 23
+    order: 28
     repeat: 1
     type: Action
     settings:
@@ -533,7 +636,7 @@ tests:
   - id: Cx5D0eMlA0qVvVkpUGvU5Q
     enabled: true
     invertResult: false
-    order: 24
+    order: 29
     repeat: 1
     type: Action
     elementId: MEmEjgsVs0yL9uVzUx8qlA
@@ -553,7 +656,7 @@ tests:
   - id: tAk8jd7WX0-RaQY8h3ShJg
     enabled: true
     invertResult: false
-    order: 25
+    order: 30
     repeat: 1
     type: Action
     elementId: 6ToSQ0lffk2vb-2ZriAUDw
@@ -574,7 +677,7 @@ tests:
     comments: Cart Count Validate as 2
     enabled: true
     invertResult: false
-    order: 26
+    order: 31
     repeat: 1
     type: Action
     elementId: 5MvGhS3CQE2vQOfX6IKP_g
@@ -630,6 +733,10 @@ tests:
   - name: MenBrand
     description: ''
     value: Tommy Hilfiger
+    type: Input
+  - name: WomenBrand
+    description: ''
+    value: 7Threads
     type: Input
   tags:
   - myntra
