@@ -1,7 +1,7 @@
-id: 4-OdAAj2oUGNGTPAYRdKNg
+id: kUdPg_9ogkKJ52gGvZHU9Q
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2021-12-13T09:43:01.9212589Z
+created: 2021-12-15T06:27:26.5487370Z
 protocol: 1
 tests:
 - id: epzNMUM_tUCSzieKe-mCtw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-26T06:51:26.0000000
-  modificationDate: 2021-12-13T09:43:02.0000000
+  modificationDate: 2021-12-15T06:27:14.0000000
   settings:
     automationAssistant: true
     appId: jFq2eLZrVUqxPTyl95LeaA
@@ -50,10 +50,31 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: p0nm4e8i_kGzH3ZohFb0qg
+  - id: ueFO3B7edkW4xxf19Aybww
+    comments: ''
     enabled: true
     invertResult: false
     order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: oss77pMS7U-Bt7cdueaJUw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: p0nm4e8i_kGzH3ZohFb0qg
+    enabled: true
+    invertResult: false
+    order: 3
     repeat: 1
     type: Action
     elementId: TE-Fn9Z3cEWi9LLiWD61ug
@@ -74,7 +95,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: ODA2tgJ7zkqnaYnDL4bL_A
@@ -98,7 +119,7 @@ tests:
     comments: Click on Search Icon
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     elementId: HGuvEtmc3kyfHm9aLGzlVA
@@ -118,7 +139,7 @@ tests:
   - id: z2_7lSDSeUO_6XGdoK9bhg
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: Y_m4ZwhdHUScgXjXzbkGfg
@@ -138,7 +159,7 @@ tests:
   - id: 6r0Qc_yuZEiyFxFRUBUmdw
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: Y_m4ZwhdHUScgXjXzbkGfg
@@ -161,7 +182,7 @@ tests:
   - id: TR0_c4OQGEqlOJ-6f9I8vw
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: w72pqeZeAUChF8cME6JX5g
@@ -181,7 +202,7 @@ tests:
   - id: T_SGyYAwqk-s0DPGzaw4uw
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: d4F3RuJnxUSZtG4UcWULVA
@@ -202,7 +223,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: wwSurnghfEuBwrXcMdsyYg
@@ -223,7 +244,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: k7tm_MsJWESTiPn2Vm2EtA
@@ -244,7 +265,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: PBPHofe1VE6jMkNi8X0B5w
@@ -420,4 +441,17 @@ elements:
     value: /html/body/div/div[2]/span[2]/span/div[3]/div[1]/div/div[2]/span[3]
     priority: 2
 projectParameters: []
-addons: []
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: oss77pMS7U-Bt7cdueaJUw
+    name: Maximize window
+    description: Maximize window
+    className: io.testproject.addons.web.window.MaximizeWindow
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
