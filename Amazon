@@ -1,7 +1,7 @@
-id: 6qml3MgpRkWi25n2b78YKA
+id: T0a61NXZzU2F9Da_q5PkXg
 projectId: IJ7Hv6n_TUqunBv6G9Nhpw
 projectName: CES-TestProject
-created: 2022-01-19T05:43:35.9175658Z
+created: 2022-01-19T05:44:22.9026386Z
 protocol: 1
 tests:
 - id: JwojQcMyb0WAUSWSkCcpPw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-19T05:43:36.0000000
-  modificationDate: 2022-01-19T05:43:36.0000000
+  modificationDate: 2022-01-19T05:44:18.0000000
   settings:
     automationAssistant: true
     appId: LjPaWSrR9UKyJ26jzS6XKA
@@ -50,12 +50,140 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: 0qmLKGqoYkOZuJAt7wYfBw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 5DmHGdtY1UGRdfwD7vWKcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EIkN7eACMUa1h-deCpnsZg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 5DmHGdtY1UGRdfwD7vWKcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bemXn0TKZ0CjLxQ7EJVs_w
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 5DmHGdtY1UGRdfwD7vWKcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qi3gKAcKo0OCyW_CVda_Qw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 5DmHGdtY1UGRdfwD7vWKcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: samsung
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PrB_SS-hCkGFxs0WdAXwdg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 5DmHGdtY1UGRdfwD7vWKcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://www.amazon.in/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: 5DmHGdtY1UGRdfwD7vWKcA
+  name: field-keywords
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#twotabsearchtextbox'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='field-keywords']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/header/div/div[1]/div[2]/div/form/div[2]/div[1]/input
+    priority: 3
 projectParameters: []
 addons: []
